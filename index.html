@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="popup-wrapper">
+      <div class="popup-content">
+        <h3>Thanks For Playing</h3>
+        <p>You Scored <span class="final-score"></span></p>
+      </div>
+    </div>
+    <div class="container">
+      <header class="app-header">
+        <h2 class="heading">Quiz Game</h2>
+        <p>Score:<span class="score"></span></p>
+      </header>
+      <div class="content-box">
+        <form class="quiz-app"></form>
+        <button onclick="startGame()" class="start-btn">Start</button>
+      </div>
+      <footer>
+        <input
+          type="button"
+          class="next-btn"
+          value="Next"
+          onclick="handleNextQsn()"
+        />
+      </footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
